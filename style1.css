@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background:lightgreen;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    background: white;
+    width: 300px;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.password-box {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.password-box input {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 8px 0 0 8px;
+}
+
+.copy {
+    background: green;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 0 8px 8px 0;
+    cursor: pointer;
+}
+
+.slider {
+    width: 100%;
+    margin: 10px 0 20px 0;
+}
+
+.options label {
+    display: block;
+    margin: 8px 0;
+    font-size: 14px;
+}
+
+.generate {
+    width: 100%;
+    padding: 10px;
+    background: green;
+    border: none;
+    color: white;
+    font-size: 16px;
+    border-radius: 10px;
+    cursor: pointer;
+}
